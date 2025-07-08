@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^12.23.0",
-    "lucid": "^2.21.0",
+    "lucid": "^0.0.1",
     "lucide-react": "^0.515.0",
     "next": "15.3.3",
     "postcss": "^8.5.5",
