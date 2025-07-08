@@ -34,35 +34,33 @@ export default function Header() {
 
         {/* Links (Desktop) */}
         <nav className="hidden md:flex gap-6 font-poppins tracking-widest items-center text-sm">
-          <Link href="/" className="hover:text-[#203c1c]">
-            Home
-          </Link>
-          <Link href="/about-us" className="hover:text-[#203c1c]">
+         
+          {/* <Link href="/about-us" className="hover:text-[#203c1c]">
             About Us
-          </Link>
+          </Link> */}
           <Link href="/organization" className="hover:text-[#203c1c]">
             Organization
           </Link>
           <Link href="/aplicants" className="hover:text-[#203c1c]">
-            Applicants
+            Aplicants
           </Link>
           <Link href="/services" className="hover:text-[#203c1c]">
             Services
           </Link>
-          <Link href="/contact-us" className="hover:text-[#203c1c]">
+          {/* <Link href="/contact-us" className="hover:text-[#203c1c]">
             Contact Us
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Buttons */}
-        <div className="hidden md:flex gap-3 items-center">
+        <div className="hidden md:flex gap-6 items-center">
           <Link href="https://www.hijr.in/candidate/find-job">
-            <button className="hover:bg-white/50 text-white hover:text-green px-3 py-1 rounded-md border-2 border-transparent hover:border-white/60">
+            <button className="w-full  hover:text-darkgreen  rounded-md  ">
               Login
             </button>
           </Link>
           <Link href="https://www.hijr.in/register">
-            <button className="hover:bg-white/50 text-white hover:text-green px-3 py-1 rounded-md border-2 border-transparent hover:border-white/60">
+            <button className="w-full  hover:text-darkgreen  rounded-md  ">
               Sign Up
             </button>
           </Link>
@@ -98,7 +96,7 @@ export default function Header() {
             className="block hover:text-[#203c1c]"
             onClick={close}
           >
-            Applicants
+            Aplicants
           </Link>
           <Link
             href="/services"
@@ -117,12 +115,12 @@ export default function Header() {
 
           <div className="pt-2 flex flex-col gap-2">
             <Link href="https://www.hijr.in/candidate/find-job">
-              <button className="w-full hover:bg-white/50 text-white hover:text-green px-3 py-1 rounded-md border border-white/40">
+              <button className="w-full  hover:text-darkgreen  rounded-md border ">
                 Login
               </button>
             </Link>
             <Link href="https://www.hijr.in/register">
-              <button className="w-full hover:bg-white/50 text-white hover:text-green px-3 py-1 rounded-md border border-white/40">
+              <button className="w-full  hover:text-darkgreen  rounded-md border ">
                 Sign Up
               </button>
             </Link>

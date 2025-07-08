@@ -23,13 +23,13 @@ const Footer = () => {
               </Link>
             </li>
             <li className="hover:text-green">
-              <Link href="/contact-us" className="hover:underline">
-                Contact
+              <Link href="/organization " className="hover:underline">
+                Organization
               </Link>
             </li>
             <li className="hover:text-green">
-              <Link href="/industry " className="hover:underline">
-                Industries
+              <Link href="/contact-us" className="hover:underline">
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -38,7 +38,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div>
           <h4 className="text-base font-semibold mb-4 text-green-500">
-            CONTACT
+            CONTACT Us
           </h4>
           <div className="pb-4 md:pb-10">
             <Link href="mailto:contact@hijr.com">contact@hijr.com</Link>
@@ -76,14 +76,14 @@ const Footer = () => {
             <p className="text-sm  text-gray-600">
               Get real time job updates on our App
             </p>
-            <Link href="https://play.google.com/store/games?device=windows" >
-            <Image
-              src="/playstore_img.png"
-              alt="Get it on Google Play"
-              width={150}
-              height={50}
-              className="mt-2 justify-center mx-auto"
-            />
+            <Link href="https://play.google.com/store/games?device=windows">
+              <Image
+                src="/playstore_img.png"
+                alt="Get it on Google Play"
+                width={150}
+                height={50}
+                className="mt-2 justify-center mx-auto"
+              />
             </Link>
           </div>
 
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
         <div className="hover:underline start-end justify-between text-xs py-4 text-gray-400">
           Desing & Develop By:{" "}
-          <Link href="https://mokshasolutions.com">Moksha Solutions </Link>
+          <Link href="https://mokshasolutions.com " className="hover:text-green">Moksha Solutions </Link>
         </div>
       </div>
     </footer>

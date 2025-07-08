@@ -36,7 +36,7 @@ const IndustryPage = () => {
                 </h3>
                 <hr className="w-40 text-green mb-3 h-5 border-t-4" />
                 <div className="mb-3">
-                  <strong>Roles We Fill:</strong>
+                  <strong >Roles We Fill:</strong>
                   <ul className="list-disc list-inside text-gray-700 text-sm">
                     {sector.roles.map((role, idx) => (
                       <li key={idx}>{role}</li>

@@ -67,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${manrope.variable} ${poppins.variable}  ${ubuntu.variable} ${roboto.variable} antialiased`}
+        className={`${manrope.variable} ${poppins.variable}  ${ubuntu.variable} ${roboto.variable} antialiased font-ubunto`}
       >
         <Header />
         {children}
